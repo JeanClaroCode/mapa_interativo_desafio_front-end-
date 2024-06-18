@@ -3,6 +3,8 @@ Este é um projeto desenvolvido como parte do desafio de front-end da Harpia Tec
 
 # Tecnologias Utilizadas
 - HTML, CSS e JavaScript
+- Docker
+- Bootstrap 5
 - Google Maps API
 - Rest Countries API
 
