@@ -2,7 +2,7 @@ import { Loader } from "@googlemaps/js-api-loader"
 require('dotenv').config();
 
 export async function getAdressNeo(address) {
-    const apiKey = "AIzaSyCeHq-JYGz0oK96ENoLj3-7w3swOodtxUU";
+    const apiKey = process.env.API_KEY;
     const addressMaps = address
     const URL = `https://maps.googleapis.com/maps/api/geocode/json?address=${addressMaps}&key=${apiKey}&v=3`;
         try {
@@ -25,7 +25,7 @@ export async function getAdressNeo(address) {
                 const longAdress = mapsData.results[0].geometry.location.lng;
     
                 const loader = new Loader({
-                    apiKey: "AIzaSyCeHq-JYGz0oK96ENoLj3-7w3swOodtxUU",
+                    apiKey: process.env.API_KEY,
                     version: "weekly",
                 });
     

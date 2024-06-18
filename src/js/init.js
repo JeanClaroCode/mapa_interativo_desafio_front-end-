@@ -7,7 +7,7 @@ let markers = [];
 export async function initializeEurope(){
 
 const loader = new Loader({
-  apiKey: "AIzaSyCeHq-JYGz0oK96ENoLj3-7w3swOodtxUU",
+  apiKey: process.env.API_KEY,
   version: "weekly",
 });
 
