@@ -1,0 +1,113 @@
+html, body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: url('../assets/background.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+#map {
+    width: 1000px;
+    height: 500px;
+    background: #ddd;
+    margin-bottom: 1rem;
+}
+
+#flag {
+    width: 150px;
+    height: auto;
+    margin-bottom: 0.5rem;
+}
+
+#infowidowcontent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.row.my-3 {
+    gap: 10px;
+    display: flex;
+    align-items: center; 
+}
+
+.col2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.col2 {
+    display: flex;
+    flex: 0; 
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.form-control {
+    max-width: 500px;
+    flex: 1; 
+}
+
+#searchButton {
+    width: auto; 
+}
+
+#newAddress {
+    gap: 10px;
+    display: flex;
+    align-items: center;
+}
+
+@media only screen and (max-width: 1200px) {
+    #map {
+        width: 90%;
+        height: 400px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #map {
+        width: 90%;
+        height: 300px;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    #map {
+        width: 90%;
+        height: 200px;
+    }
+
+    .row.my-3 {
+        flex-direction: column;
+    }
+
+    .container {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .col {
+        width: 100%;
+    }
+
+    .form-control {
+        max-width: 100%;
+    }
+
+    #searchButton {
+        width: 100%;
+        margin-top: 1rem;
+    }
+}
