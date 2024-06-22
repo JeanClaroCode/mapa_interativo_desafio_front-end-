@@ -1,6 +1,9 @@
 # Mapa Interativo: Desafio Front-end Harpia Tech
 Este é um projeto desenvolvido como parte do desafio de front-end da Harpia Tech. A aplicação é um mapa interativo que exibe informações dos países utilizando a API do Google Maps e a API Rest Countries.
 
+[![Watch the video](https://github.com/JeanClaroCode/mapa_interativo_desafio_front-end-/assets/160747774/1bbee6d7-12e3-4cf4-ab94-5c414ebb5d47)](https://github.com/JeanClaroCode/mapa_interativo_desafio_front-end-/assets/160747774/1bbee6d7-12e3-4cf4-ab94-5c414ebb5d47)
+
+
 # Tecnologias Utilizadas
 - HTML, CSS e JavaScript
 - Docker
